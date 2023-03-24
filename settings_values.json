@@ -1,0 +1,9 @@
+{
+  "input_dcm": [
+    {
+      "path": "DICOM.zip",
+      "file_filter_condition_name": "filter_dcm",
+      "modality": "T1"
+    }
+  ]
+}

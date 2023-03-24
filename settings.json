@@ -1,0 +1,18 @@
+[
+  {
+    "type": "info",
+    "content": "Expects DCM files. "
+  },
+  {
+    "type": "container",
+    "title": "dcm2niix",
+    "id": "input_dcm",
+    "mandatory": 1,
+    "file_filter": "filter_dcm[1,1]((r'.*.zip'))",
+    "in_filter": ["mri_brain_data"],
+    "out_filter": [],
+    "batch": 1,
+    "anchor": 1,
+    "section": "data"
+  }
+]
